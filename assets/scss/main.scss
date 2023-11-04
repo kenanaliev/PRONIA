@@ -1,15 +1,29 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+@import './abstracts/colors';
+@import'./abstracts/mixins';
+@import './abstracts/variables';
 
-.container {
-    padding-left: 120px;
-    padding-right: 120px;
-}
+@import './base/base';
+@import './base/normalize';
+@import './base/reset';
+@import'./base/typography';
 
-.container-center{
-    padding-left: 120px;
-    padding-right: 120px;
-}
+@import'./components/alert';
+@import'./components/button';
+@import'./components/label';
+@import'./components/modal';
+@import'./components/profile-card';
+
+@import'./layout/footer';
+@import'./layout/header';
+@import'./layout/navbar';
+@import'./layout/sidebar';
+
+@import'./pages/blog';
+@import'./pages/login';
+@import'./pages/product';
+@import'./pages/signup';
+
+@import'./themes/dark-theme';
+@import'./themes/light-theme';
+@import'./themes/material-theme';
+
